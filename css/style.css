@@ -15,7 +15,8 @@
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #baccd8;
+    /* background-color: #baccd8; */
+    background-image: linear-gradient(rgb(246, 248, 250),rgb(214, 233, 243),rgb(140, 146, 155), rgb(10, 11, 12))
     
 }
 
@@ -300,7 +301,6 @@ justify-content: space-between;
 .ballenas:hover{
     width: 50%;
     background-image: linear-gradient(to top, rgb(23, 87, 121),rgb(17, 47, 65), rgb(21, 23, 24))
-
 }
 
 .ballenasImg{
