@@ -106,19 +106,19 @@ nav ul li a {
     width: 25px;
     cursor: pointer;
     display: none;
-  }
-  .burger img {
+}
+.burger img {
     width: 100%;
-  }
-  .toggle-open.open {
+}
+.toggle-open.open {
     display: none;
-  }
-  .toggle-close {
+}
+.toggle-close {
     display: none;
-  }
-  .toggle-close.close {
+}
+.toggle-close.close {
     display: block;
-  }
+}
 .banner{
     height: 70vh;
     background-image: url(../img/3WHG4IYX6BFZ5PMWFI2EZQRXZU.jpg);
@@ -284,6 +284,12 @@ justify-content: space-between;
     flex-direction: column;
     align-items: center;
     background-image: linear-gradient(to top, rgb(63, 144, 187),rgb(7, 130, 201), rgb(5,67,102));
+    transition: all 5s;
+}
+.ballenas:hover{
+    width: 50%;
+    background-image: linear-gradient(to top, rgb(23, 87, 121),rgb(17, 47, 65), rgb(21, 23, 24))
+
 }
 
 .ballenasImg{
