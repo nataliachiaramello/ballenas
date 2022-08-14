@@ -15,7 +15,6 @@
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    /* background-color: #baccd8; */
     background-image: linear-gradient(rgb(246, 248, 250),rgb(214, 233, 243),rgb(140, 146, 155), rgb(10, 11, 12))
     
 }
@@ -185,7 +184,7 @@ p{
     margin-bottom: 2rem;
     margin-top: 2rem;
     animation-name: adopta;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
