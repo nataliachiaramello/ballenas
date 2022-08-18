@@ -14,7 +14,7 @@
 }
 
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro' , sans-serif;
     background-image: linear-gradient(rgb(246, 248, 250),rgb(214, 233, 243),rgb(140, 146, 155), rgb(10, 11, 12))
     
 }
@@ -28,7 +28,7 @@ body{
     "header header" 
     "main main"
     "footer footer"
-    }
+    } 
 
 header{
     grid-area: header;
@@ -71,6 +71,17 @@ footer{
 
 }
 
+.bg-propio{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(246, 249, 250, 0.89) 
+}
+.nav-item a:hover{
+    color: rgb(15, 248, 248)!important;
+}
+
+
+
 .logo {
     width: 5%;
     display: inline-block;
@@ -81,6 +92,7 @@ nav {
     width: 90%;
     
 }
+
 
 
 .barranav {
@@ -126,7 +138,9 @@ nav ul li a {
     background-attachment: fixed;
     
 }
-
+.d-block{
+    height: 100%;
+}
 .titulo {
     font-size: 2.8rem;
     font-family: 'Mochiy Pop One', sans-serif;
