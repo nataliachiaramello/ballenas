@@ -42,7 +42,7 @@ footer{
     grid-area: footer;
 }
 
-.aside{
+/* .aside{ */
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
@@ -155,30 +155,34 @@ p{
     font-weight: lighter;
 }
 
-.novedades{
+/* .novedades{ */
     display: flex;
     flex-wrap: nowrap;
     margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 4rem;
+    position: relative;
 }
 
 
-.imgavistaje {
-    width: 30%;
-    height: 20%;
+/* .imgavistaje { */
+    width: 500px;
+    height: 300px;
     border: 2px solid rgba(1,102,149,255);
     margin-left: 5rem;
+    /* margin-top: 2rem; */
+    position: absolute;
+    /* top: 2rem; */
 }
 
-.avistamiento {
+/* .avistamiento { */
     margin-left: 2rem;
 }
-.mapa{
+/* .mapa{ */
     display: flex;
     margin-left: 2rem;
 }
-.mapaImg{
+/* .mapaImg{ */
     width: 90%;
     border: 2px solid rgba(1,102,149,255);
     
