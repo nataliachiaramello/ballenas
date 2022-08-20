@@ -41,13 +41,11 @@ main{
 footer{
     grid-area: footer;
 }
-
-/* .aside{ */
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "avistamiento mapa";
+.contacto {
+    margin-left: 7rem;
+}
+.contacto p{
+    margin-left: 2rem;
 }
 
 .aside{
@@ -155,38 +153,6 @@ p{
     font-weight: lighter;
 }
 
-/* .novedades{ */
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 4rem;
-    position: relative;
-}
-
-
-/* .imgavistaje { */
-    width: 500px;
-    height: 300px;
-    border: 2px solid rgba(1,102,149,255);
-    margin-left: 5rem;
-    /* margin-top: 2rem; */
-    position: absolute;
-    /* top: 2rem; */
-}
-
-/* .avistamiento { */
-    margin-left: 2rem;
-}
-/* .mapa{ */
-    display: flex;
-    margin-left: 2rem;
-}
-/* .mapaImg{ */
-    width: 90%;
-    border: 2px solid rgba(1,102,149,255);
-    
-}
 
 .adopta {
     font-family: 'Source Sans Pro', sans-serif;
@@ -218,11 +184,6 @@ footer {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.contacto{
-    display: inline;
-    margin-left: 5rem;
-    
-}
 
 .redes {
     display: inline;
@@ -247,7 +208,7 @@ footer {
 
 .noticias {
     display: inline;
-    margin-right: 5rem;
+    margin-right: 9rem;
 }
 
 .pie-de-pagina{
@@ -293,6 +254,11 @@ justify-content: space-between;
     border: 2px solid rgb(5,67,102)  ;
 }
 
+.card{
+    box-shadow: 12px 11px 31px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow:12px 11px 31px -3px rgba(0,0,0,0.75) ;
+    -moz-box-shadow:12px 11px 31px -3px rgba(0,0,0,0.75) ;
+}
 
 .contenedor{
     display: flex;
