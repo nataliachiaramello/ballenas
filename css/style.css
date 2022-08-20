@@ -72,13 +72,12 @@ footer{
 .bg-propio{
     position: fixed;
     width: 100%;
-    background-color: rgba(246, 249, 250, 0.89) 
+    background-color: rgba(246, 249, 250, 0.89);
+    z-index: 99;
 }
 .nav-item a:hover{
     color: rgb(15, 248, 248)!important;
 }
-
-
 
 .logo {
     width: 5%;
@@ -90,8 +89,6 @@ nav {
     width: 90%;
     
 }
-
-
 
 .barranav {
     display: flex;
