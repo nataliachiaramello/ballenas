@@ -14,9 +14,14 @@
 }
 
 body{
-    font-family: 'Source Sans Pro' , sans-serif;
+    font-family: 'DynaPuff', cursive, sans-serif;
     background-image: linear-gradient(rgb(246, 248, 250),rgb(214, 233, 243),rgb(140, 146, 155), rgb(10, 11, 12))
     
+}
+
+.nav-item a{
+    font-family: 'DynaPuff', cursive, sans-serif;
+    font-size: large;
 }
 
 .contenedor-index{
@@ -76,7 +81,7 @@ footer{
     z-index: 99;
 }
 .nav-item a:hover{
-    color: rgb(15, 248, 248)!important;
+    color: rgb(8, 82, 241)!important;
 }
 
 .logo {
@@ -98,10 +103,6 @@ nav {
     display: inline;
 }
 
-.barranav a:hover {
-color: rgb(15, 248, 248);
-}
-
 nav ul li a {
     font-size: 1.4rem;
     color: rgba(1,102,149,255);
@@ -109,23 +110,7 @@ nav ul li a {
     margin-right: 15px;
     
 }
-.burger {
-    width: 25px;
-    cursor: pointer;
-    display: none;
-}
-.burger img {
-    width: 100%;
-}
-.toggle-open.open {
-    display: none;
-}
-.toggle-close {
-    display: none;
-}
-.toggle-close.close {
-    display: block;
-}
+
 .banner{
     height: 70vh;
     background-image: url(../img/3WHG4IYX6BFZ5PMWFI2EZQRXZU.jpg);
@@ -152,7 +137,7 @@ p{
 
 
 .adopta {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:'DynaPuff', cursive, sans-serif;
     font-size: 2rem;
     font-weight: bold;
     border-radius: 8px;
@@ -178,7 +163,7 @@ p{
 
 footer {
     background-color:rgba(1,102,149,255); 
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'DynaPuff', cursive, sans-serif;
 }
 
 
@@ -353,7 +338,7 @@ section.pie-de-pagina{
     margin-right: 2rem;
 }
 
-@media (max-width: 440px){
+@media (max-width: 440px) {
     .contenedor-index{
         grid-template-columns: 100%;
         grid-template-areas:
@@ -466,7 +451,6 @@ section.pie-de-pagina{
     .subtitulo{
         font-size: 2.3rem;
         text-align: center;
-        
     }
     .avistaje{
         padding: 1rem;
@@ -483,3 +467,4 @@ section.pie-de-pagina{
         width: 100%;
     }
 }
+
