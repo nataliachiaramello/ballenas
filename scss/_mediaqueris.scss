@@ -1,0 +1,128 @@
+@media (max-width: 440px) {
+    .contenedor-index{
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "header" 
+        "main"
+        "footer"
+        }
+
+    .titulo{
+        font-size: 2rem;
+    }
+
+    .burger{
+        display: block;
+    }
+    .barranav{
+        display: none;
+    }
+    .novedades{
+        flex-wrap: wrap;
+    }
+    .imgavistaje{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .aside{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "avistamiento"
+        "mapa";
+
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        iframe{
+            width: 95%;
+        }
+    
+    }
+
+    .avistamiento{
+        margin: 2rem;
+    }
+
+    .pie-de-pagina{
+        flex-wrap: wrap;
+    }
+    .contacto{
+        margin-left: 7rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .redes{
+        margin-left: 7rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .noticias{
+        margin-left: 7rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .contenedor-info{
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer"
+    }
+    .asideInfo{
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas: 
+        "subtitulo"
+        "infoBallena"
+        "habitat"
+        "caza"
+        "monumento";
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+        justify-items: center;
+    }
+    .habitat{
+        margin-left: 2rem;
+    }
+    .monumento{
+        margin-left: 2rem;
+    }
+    .contenedor{
+        flex-wrap: wrap;
+    }
+    .miembros {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2rem;
+        padding: 1rem;
+
+        Img{
+            width: 100%;
+        }
+    }
+    .conservacion{
+        padding: 1rem;
+    }
+    .subtitulo{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    .avistaje{
+        padding: 1rem;
+    }
+    .adopcion{
+        padding: 1rem;
+    }
+    .ballenas{
+        width: 100%;
+        margin: 0;
+        Img{
+            width: 100%;
+        }
+    }
+    }

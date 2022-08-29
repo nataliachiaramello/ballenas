@@ -1,0 +1,42 @@
+footer {
+    background-color:rgba(1,102,149,255); 
+    font-family: $fuente;
+    .redes {
+        display: inline;
+        margin-left: 20rem;
+        
+    } 
+    .bi-instagram {
+        font-size: 2rem;
+        color: #000000;
+    }
+    
+    .bi-facebook {
+        font-size: 2rem;
+        color: #000000;
+    }
+    
+    .bi-twitter {
+        font-size: 2rem;
+        color: #000000;
+    }
+    
+    .noticias {
+        display: inline;
+        margin-right: 9rem;
+    }
+    
+    .pie-de-pagina{
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .copy{
+        font-size: 1.5rem;
+        font-weight:bold;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+

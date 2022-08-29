@@ -1,0 +1,99 @@
+.contenedor-index{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:auto 1fr auto;
+    min-height: 100vh ;
+    grid-template-areas:
+    "header header" 
+    "main main"
+    "footer footer"
+
+    
+    } 
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+.contacto {
+    margin-left: 7rem;
+    p{
+        margin-left: 2rem;
+    }
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.contenedor-info{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+section.pie-de-pagina{
+    grid-area: footer;
+}
+
+
+.asideInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "subtitulo subtitulo"
+    "infoBallena habitat"
+    "caza monumento";
+    grid-column-gap: 5rem;
+    grid-row-gap: 2rem;
+    justify-items: center;
+
+    .subtitulo{
+        grid-area: subtitulo;
+        margin-top: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .infoBallena{
+        grid-area: infoBallena;
+        margin-left: 2rem;
+    }
+
+    .habitat{
+        grid-area: habitat;
+        margin-right: 2rem;
+    }
+    
+    .caza{
+        grid-area: caza;
+        margin-left: 2rem;
+    }
+    
+    .monumento{
+        grid-area: monumento;
+        margin-right: 2rem;
+    }
+    
+}  
+

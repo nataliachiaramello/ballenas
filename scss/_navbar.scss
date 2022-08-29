@@ -1,0 +1,16 @@
+.nav-item a{
+    font-family:$fuente ;
+    font-size: large;
+    &:hover{
+        color: rgb(8, 82, 241)!important;
+    }
+}
+
+.bg-propio{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(246, 249, 250, 0.89);
+    z-index: 99;
+}
+
+
