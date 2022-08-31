@@ -1,5 +1,5 @@
 
-@media (max-width: 440px) {
+@media screen and (max-width: 440px) {
     .contenedor-index{
         grid-template-columns: 100%;
         grid-template-areas:
@@ -116,7 +116,6 @@
         padding: 1rem;
     }
     .ballenas{
-        width: 100%;
         margin: 0;
         Img{
             width: 100%;
