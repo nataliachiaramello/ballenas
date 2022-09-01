@@ -214,7 +214,7 @@ footer {
 }
 footer .redes {
   display: inline;
-  margin-left: 20rem;
+  margin-left: 7rem;
 }
 footer .bi-instagram {
   font-size: 2rem;
@@ -248,7 +248,7 @@ footer .copy {
     grid-template-columns: 100%;
     grid-template-areas: "header" "main" "footer";
   }
-  .titulo {
+  .banner .titulo {
     font-size: 2rem;
   }
   .barranav {
@@ -293,9 +293,11 @@ footer .copy {
     margin-bottom: 1rem;
   }
   .noticias {
-    margin-left: 0;
+    margin-left: 5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    display: flex;
+    text-align: center;
   }
   .contenedor-info {
     grid-template-columns: 100%;

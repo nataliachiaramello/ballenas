@@ -1,124 +1,148 @@
-
 @media screen and (max-width: 440px) {
-    .contenedor-index{
+    .contenedor-index {
         grid-template-columns: 100%;
         grid-template-areas:
-        "header" 
-        "main"
-        "footer"
-        }
-
-    .titulo{
-        font-size: 2rem;
+            "header"
+            "main"
+            "footer"
     }
-    .barranav{
+
+    .banner {
+        .titulo {
+            font-size: 2rem;
+        }
+    }
+
+    .barranav {
         display: none;
     }
-    .novedades{
+
+    .novedades {
         flex-wrap: wrap;
     }
-    .imgavistaje{
+
+    .imgavistaje {
         width: 100%;
         margin-left: 0%;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-    .aside{
+
+    .aside {
         grid-template-columns: 100%;
         grid-template-rows: auto;
-        grid-template-areas: 
-        "avistamiento"
-        "mapa";
+        grid-template-areas:
+            "avistamiento"
+            "mapa";
 
-        section{
+        section {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        iframe{
+
+        iframe {
             width: 95%;
         }
-    
+
     }
 
-    .avistamiento{
+    .avistamiento {
         margin: 2rem;
     }
 
-    .pie-de-pagina{
+    .pie-de-pagina {
         flex-wrap: wrap;
     }
-    .contacto{
+
+    .contacto {
         margin-left: 0;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    footer .redes{
+
+    footer .redes {
         margin-left: 0;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    .noticias{
-        margin-left: 0;
+
+    .noticias {
+        margin-left: 5rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
+        display: flex;
+        text-align: center;
+        
     }
-    .contenedor-info{
+
+    .contenedor-info {
         grid-template-columns: 100%;
-        grid-template-areas: 
-        "header"
-        "main"
-        "footer"
+        grid-template-areas:
+            "header"
+            "main"
+            "footer"
     }
-    .asideInfo{
+
+    .asideInfo {
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto auto auto;
-        grid-template-areas: 
-        "subtitulo"
-        "infoBallena"
-        "habitat"
-        "caza"
-        "monumento";
+        grid-template-areas:
+            "subtitulo"
+            "infoBallena"
+            "habitat"
+            "caza"
+            "monumento";
         grid-column-gap: 0;
         grid-row-gap: 0;
         justify-items: center;
     }
-    .habitat{
+
+    .habitat {
         margin-left: 2rem;
     }
-    .monumento{
+
+    .monumento {
         margin-left: 2rem;
     }
-    .contenedor{
+
+    .contenedor {
         flex-wrap: wrap;
     }
+
     .miembros {
         width: 100%;
         margin: 0;
         margin-bottom: 2rem;
         padding: 1rem;
 
-        Img{
+        Img {
             width: 100%;
         }
     }
-    .conservacion{
+
+    .conservacion {
         padding: 1rem;
     }
-    .subtitulo{
+
+    .subtitulo {
         font-size: 2.3rem;
         text-align: center;
     }
-    .avistaje{
+
+    .avistaje {
         padding: 1rem;
     }
-    .adopcion{
+
+    .adopcion {
         padding: 1rem;
     }
-    .ballenas{
+
+    .ballenas {
         margin: 0;
-        Img{
+
+        Img {
             width: 100%;
         }
     }
-    }
+}
