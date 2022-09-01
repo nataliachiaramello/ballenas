@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Mochiy+Pop+One&family=Source+Sans+Pro&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
-
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
@@ -13,12 +11,10 @@
 
 body {
   font-family: "DynaPuff", cursive, sans-serif;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f8fa), color-stop(#d6e9f3), color-stop(#8c929b), to(#0a0b0c));
-  background-image: linear-gradient(#f6f8fa, #d6e9f3, #8c929b, #0a0b0c);
+  background-image: linear-gradient(rgb(246, 248, 250), rgb(214, 233, 243), rgb(140, 146, 155), rgb(10, 11, 12));
 }
-
 body .subtitulo {
-  color: #054366;
+  color: rgb(5, 67, 102);
   margin-left: 1rem;
 }
 
@@ -26,9 +22,8 @@ body .subtitulo {
   font-family: "DynaPuff", cursive, sans-serif;
   font-size: large;
 }
-
 .nav-item a:hover {
-  color: #0852f1 !important;
+  color: rgb(8, 82, 241) !important;
 }
 
 .bg-propio {
@@ -39,43 +34,28 @@ body .subtitulo {
 }
 
 .contenedor-index {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto;
   grid-template-columns: auto;
-  -ms-grid-rows: auto 1fr auto;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  grid-template-areas: "header header"
-    "main main"
-    "footer footer";
+  grid-template-areas: "header header" "main main" "footer footer";
 }
 
 header {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: header;
 }
 
 main {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: main;
 }
 
 footer {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: footer;
 }
 
 .contacto {
   margin-left: 7rem;
 }
-
 .contacto p {
   margin-left: 2rem;
 }
@@ -85,87 +65,52 @@ footer {
 }
 
 .contenedor-info {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto;
   grid-template-columns: auto;
-  -ms-grid-rows: auto 1fr auto;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  grid-template-areas: "header header"
-    "main main"
-    "footer footer";
+  grid-template-areas: "header header" "main main" "footer footer";
 }
 
 header {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: header;
 }
 
 main {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: main;
 }
 
 section.pie-de-pagina {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: footer;
 }
 
 .asideInfo {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto auto auto;
   grid-template-rows: auto auto auto;
-  grid-template-areas: "subtitulo subtitulo"
-    "infoBallena habitat"
-    "caza monumento";
+  grid-template-areas: "subtitulo subtitulo" "infoBallena habitat" "caza monumento";
   grid-column-gap: 5rem;
   grid-row-gap: 2rem;
   justify-items: center;
 }
-
 .asideInfo .subtitulo {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: subtitulo;
   margin-top: 1rem;
   font-size: 2.5rem;
 }
-
 .asideInfo .infoBallena {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
   grid-area: infoBallena;
   margin-left: 2rem;
 }
-
 .asideInfo .habitat {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
   grid-area: habitat;
   margin-right: 2rem;
 }
-
 .asideInfo .caza {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
   grid-area: caza;
   margin-left: 2rem;
 }
-
 .asideInfo .monumento {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
   grid-area: monumento;
   margin-right: 2rem;
 }
@@ -183,10 +128,10 @@ section.pie-de-pagina {
 
 .titulo {
   font-size: 2.8rem;
-  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: "Mochiy Pop One", sans-serif;
   text-shadow: #000000 5px 5px;
   text-align: center;
-  color: #ebeff3;
+  color: rgb(235, 239, 243);
   padding-top: 13rem;
 }
 
@@ -200,7 +145,6 @@ p {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
-
 .boton .adopta {
   font-family: "DynaPuff", cursive, sans-serif;
   font-size: 2rem;
@@ -208,11 +152,8 @@ p {
   border-radius: 8px;
   padding: 0.5rem;
 }
-
 .boton:hover {
-  -webkit-transform: scale(0.9, 0.9);
   transform: scale(0.9, 0.9);
-  -webkit-transition: 2s;
   transition: 2s;
 }
 
@@ -227,46 +168,31 @@ p {
 }
 
 .contenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .ballenas {
   width: 30%;
   margin: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#3f90bb), color-stop(#0782c9), to(#054366));
-  background-image: linear-gradient(to top, #3f90bb, #0782c9, #054366);
-  -webkit-transition: all 5s;
+  background-image: linear-gradient(to top, rgb(63, 144, 187), rgb(7, 130, 201), rgb(5, 67, 102));
   transition: all 5s;
 }
-
 .ballenas:hover {
   width: 50%;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#175779), color-stop(#112f41), to(#151718));
-  background-image: linear-gradient(to top, #175779, #112f41, #151718);
+  background-image: linear-gradient(to top, rgb(23, 87, 121), rgb(17, 47, 65), rgb(21, 23, 24));
 }
-
 .ballenas Img {
   width: 20vw;
   height: 20rem;
 }
-
 .ballenas Img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
 }
 
@@ -279,216 +205,145 @@ p {
 }
 
 .nombre {
-  color: #ebeff3;
+  color: rgb(235, 239, 243);
 }
 
 footer {
-  background-color: #016695;
+  background-color: rgb(1, 102, 149);
   font-family: "DynaPuff", cursive, sans-serif;
 }
-
 footer .redes {
   display: inline;
   margin-left: 20rem;
 }
-
 footer .bi-instagram {
   font-size: 2rem;
   color: #000000;
 }
-
 footer .bi-facebook {
   font-size: 2rem;
   color: #000000;
 }
-
 footer .bi-twitter {
   font-size: 2rem;
   color: #000000;
 }
-
 footer .noticias {
   display: inline;
   margin-right: 9rem;
 }
-
 footer .pie-de-pagina {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
-
 footer .copy {
   font-size: 1.5rem;
   font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
-@media (max-width: 440px) {
+@media screen and (max-width: 440px) {
   .contenedor-index {
-    -ms-grid-columns: 100%;
     grid-template-columns: 100%;
-    grid-template-areas: "header"
-      "main"
-      "footer";
+    grid-template-areas: "header" "main" "footer";
   }
-
   .titulo {
     font-size: 2rem;
   }
-
-  .burger {
-    display: block;
-  }
-
   .barranav {
     display: none;
   }
-
   .novedades {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-
   .imgavistaje {
     width: 100%;
     margin-left: 0%;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
-
   .aside {
-    -ms-grid-columns: 100%;
     grid-template-columns: 100%;
-    -ms-grid-rows: auto;
     grid-template-rows: auto;
-    grid-template-areas: "avistamiento"
-      "mapa";
+    grid-template-areas: "avistamiento" "mapa";
   }
-
   .aside section {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
   }
-
   .aside iframe {
     width: 95%;
   }
-
   .avistamiento {
     margin: 2rem;
   }
-
   .pie-de-pagina {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-
   .contacto {
     margin-left: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-
-  .redes {
-    margin-left: 7rem;
+  footer .redes {
+    margin-left: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-
   .noticias {
     margin-left: 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-
   .contenedor-info {
-    -ms-grid-columns: 100%;
     grid-template-columns: 100%;
-    grid-template-areas: "header"
-      "main"
-      "footer";
+    grid-template-areas: "header" "main" "footer";
   }
-
   .asideInfo {
-    -ms-grid-columns: 100%;
     grid-template-columns: 100%;
-    -ms-grid-rows: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
-    grid-template-areas: "subtitulo"
-      "infoBallena"
-      "habitat"
-      "caza"
-      "monumento";
+    grid-template-areas: "subtitulo" "infoBallena" "habitat" "caza" "monumento";
     grid-column-gap: 0;
     grid-row-gap: 0;
     justify-items: center;
   }
-
   .habitat {
     margin-left: 2rem;
   }
-
   .monumento {
     margin-left: 2rem;
   }
-
   .contenedor {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-
   .miembros {
     width: 100%;
     margin: 0;
     margin-bottom: 2rem;
     padding: 1rem;
   }
-
   .miembros Img {
     width: 100%;
   }
-
   .conservacion {
     padding: 1rem;
   }
-
   .subtitulo {
     font-size: 2.3rem;
     text-align: center;
   }
-
   .avistaje {
     padding: 1rem;
   }
-
   .adopcion {
     padding: 1rem;
   }
-
   .ballenas {
-    width: 100%;
     margin: 0;
   }
-
   .ballenas Img {
     width: 100%;
   }
-}
-
-# sourceMappingURL=estilos.css.map
+}/*# sourceMappingURL=estilos.css.map */
