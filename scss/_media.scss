@@ -108,6 +108,9 @@
 
     .contenedor {
         flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-evenly;
     }
 
     .miembros {
@@ -125,9 +128,12 @@
         padding: 1rem;
     }
 
-    .subtitulo {
+    body{
+        .subtitulo {
+        margin-left: 0;
         font-size: 2.3rem;
         text-align: center;
+    }
     }
 
     .avistaje {
