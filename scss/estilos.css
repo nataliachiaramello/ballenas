@@ -140,23 +140,6 @@ p {
   font-weight: lighter;
 }
 
-.boton {
-  text-align: center;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-.boton .adopta {
-  font-family: "DynaPuff", cursive, sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  border-radius: 8px;
-  padding: 0.5rem;
-}
-.boton:hover {
-  transform: scale(0.9, 0.9);
-  transition: 2s;
-}
-
 .presentacion {
   margin-left: 1rem;
 }
@@ -241,6 +224,27 @@ footer .copy {
   font-weight: bold;
   display: flex;
   justify-content: center;
+}
+
+.btn {
+  text-align: center;
+  font-family: "DynaPuff", cursive, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin-left: 53rem;
+}
+
+.btn {
+  background-color: rgb(7, 87, 88);
+  color: #f0f8ff;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.btn:hover {
+  transform: scale(0.9, 0.9);
+  transition: 2s;
 }
 
 @media screen and (max-width: 440px) {
@@ -343,8 +347,11 @@ footer .copy {
   .avistaje {
     padding: 1rem;
   }
-  .adopcion {
-    padding: 1rem;
+  .btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 9.3rem;
+    font-size: 1.5rem;
   }
   .ballenas {
     margin: 0;
