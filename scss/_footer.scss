@@ -7,17 +7,17 @@ footer {
         
     } 
     .bi-instagram {
-        font-size: 2rem;
+        font-size: map-get($estilos, fontSize);
         color: #000000;
     }
     
     .bi-facebook {
-        font-size: 2rem;
+        font-size: map-get($estilos, fontSize);
         color: #000000;
     }
     
     .bi-twitter {
-        font-size: 2rem;
+        font-size: map-get($estilos, fontSize);
         color: #000000;
     }
     
@@ -27,18 +27,17 @@ footer {
     }
     
     .pie-de-pagina{
-    display: flex;
+    display: map-get($estilos, displayFlex);
     justify-content: space-between;
     }
     
     .copy{
         font-size: 1.5rem;
         font-weight:bold;
-        display: flex;
+        display: map-get($estilos, displayFlex);
         justify-content: center;
+        color: #000000;
     }
-
-
 }
 
 
