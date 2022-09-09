@@ -63,17 +63,17 @@
 
     .habitat {
         grid-area: habitat;
-        margin-right: map-get($estilos, $marginDos );
+        // margin-right: map-get($estilos, $marginDos );
     }
 
     .caza {
         grid-area: caza;
-        margin-left: map-get($estilos, $marginDos );
+        // margin-left: map-get($estilos, $marginDos );
     }
 
     .monumento {
         grid-area: monumento;
-        margin-right: map-get($estilos, $marginDos );
+        // margin-right: map-get($estilos, $marginDos );
     }
 
 }

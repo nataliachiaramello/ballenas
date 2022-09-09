@@ -23,9 +23,9 @@
 
     .imgavistaje {
         width: 100%;
-        margin-left: map-get($estilos, $marginUno );
-        margin-top: map-get($estilos, $marginDos );
-        margin-bottom: map-get($estilos, $marginDos );
+        // margin-left: map-get($estilos, $marginUno );
+        // margin-top: map-get($estilos, $marginDos );
+        // margin-bottom: map-get($estilos, $marginDos );
     }
 
     .aside {
@@ -48,7 +48,7 @@
     }
 
     .avistamiento {
-        margin: map-get($estilos, $marginDos );
+        // margin: map-get($estilos, $marginDos );
     }
 
     .pie-de-pagina {
@@ -56,13 +56,13 @@
     }
 
     .contacto {
-        margin-left: map-get($estilos, $marginUno );;
+        // margin-left: map-get($estilos, $marginUno );;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
 
     footer .redes {
-        margin-left: map-get($estilos, $marginUno );;
+        // margin-left: map-get($estilos, $marginUno );;
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
@@ -99,11 +99,11 @@
     }
 
     .habitat {
-        margin-left: map-get($estilos, $marginDos );
+        // margin-left: map-get($estilos, $marginDos );
     }
 
     .monumento {
-        margin-left: map-get($estilos, $marginDos );
+        // margin-left: map-get($estilos, $marginDos );
     }
 
     .contenedor {
@@ -115,8 +115,8 @@
 
     .miembros {
         width: 100%;
-        margin: map-get($estilos, $marginUno );
-        margin-bottom: map-get($estilos, $marginDos );
+        // margin: map-get($estilos, $marginUno );
+        // margin-bottom: map-get($estilos, $marginDos );
         padding: 1rem;
 
         Img {
@@ -130,7 +130,7 @@
 
     body{
         .subtitulo {
-        margin-left: map-get($estilos, $marginUno );
+        // margin-left: map-get($estilos, $marginUno );
         font-size: 2.3rem;
         text-align: center;
         }
@@ -148,7 +148,7 @@
     }
 
     .ballenas {
-        margin: map-get($estilos, $marginUno );
+        // margin: map-get($estilos, $marginUno );
 
         Img {
             width: 100%;
