@@ -9,11 +9,3 @@
             transition: 2s;
             }
 }
-
-.botonInicio {
-    @include botones($border: none, $bgColor: rgba(77, 102, 131, 0.281));
-}
-
-.botonNav {
-    @include botones($border: none, $bgColor: rgba(200, 205, 211, 0.623));
-}
