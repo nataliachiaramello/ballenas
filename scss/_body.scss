@@ -9,10 +9,6 @@
     height: 100%;
 }
 
-.seccionNav{
-    @include display($direction: row, $justify: space-between,$gap:60px)
-
-}
 
 .titulo {
     font-size: 2.8rem;
